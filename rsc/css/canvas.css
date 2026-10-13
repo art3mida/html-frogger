@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Arcade';
+	src: url('../fonts/ARCADECLASSIC.TTF');
+}
+
+* {
+	font-family: Arcade;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+}
+
+#frogger-canvas {
+    display: block;
+    margin: auto;
+	background-color: lightgreen;
+}

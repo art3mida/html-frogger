@@ -1,0 +1,30 @@
+FUNKCIONALNOST
+(X) 1. Napravi strukturu projekta, pocetni frogger.html i game.js fajl sa osnovnim inicijalizacijama.
+(X) 2. Kostur klase za zabu - konstruktor i iscrtavanje (krug).
+(X) 3. Pomeranje zabe. Dodaj game loop u game.js.
+(X) 4. Kostur klase i iscrtavanje automobila (pravougaonici).
+(X) 5. Update automobila. Smer kretanja i update zavise od directionX.
+(X) 6. Generisanje mape. Izmena koda tako da sve ima matricnu strukturu (dodati laneId i blockSize).
+(X)    6.1. GrassLane bazna klasa i iscrtavanje
+(X)     6.2. RoadLane bazna klasa i iscrtavanje
+(X)     6.3. Proceduralno generisanje traka, tako da raspored zavisi od grassToRoadLaneRatio. Prva i poslednja traka su prazne GrassLane.
+(X)     6.3. Dodati generisanje i iscrtavanje prepreka u GrassLane. Gustina prepreka zavisi od obstacleToClearGrassRatio
+(X)     6.4. Dodati generisanje i iscrtavanje automobila za RoadLane (sada automobili pripadaju RoadLane klasi umesto globalom objektu)
+(X) 7. Provera kolizije sa automobilima.
+(X) 8. Provera kolizije sa preprekama.
+(X) 9. Game over screen i iskljucivanje game loop-a.
+(X) 10. Level completed screen.
+(X) 11. Scoring system.
+(X)     11.1. Po 10 za svaku predjenu traku (znaci 10 * max predjena traka)
+(X)     11.2. Time bonus: (60s - potroseno vreme) * 1
+12. Start dugme
+13. Reset dugme 
+15. Prelazak na sledeci nivo (generisanje sledeceg nivoa) - u tom slucaju izbacujem level completed screen
+   
+
+ULEPSAVANJE
+(X) 1. Ulepsaj font
+2. Ulepsaj iscrtavanje svega
+3. High scores
+4. Apstraktna klasa Lane
+5. Klasa Map koja radi proveru kolizije s preprekama (metod isTileAnObstacle), generise mapu, i lepo sve deli na blokove

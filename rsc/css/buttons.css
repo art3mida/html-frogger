@@ -1,0 +1,25 @@
+button {
+	position: relative;
+	margin: 0px auto;
+	background-color: lightgreen;
+	color: black;
+	height: 40px;
+	width: 900px;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	border: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.shown {
+	display: inline-block;
+}
